@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OOP_home.iml" filepath="$PROJECT_DIR$/.idea/modules/OOP_home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OOP_home_main.iml" filepath="$PROJECT_DIR$/.idea/modules/OOP_home_main.iml" group="OOP_home" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OOP_home_test.iml" filepath="$PROJECT_DIR$/.idea/modules/OOP_home_test.iml" group="OOP_home" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testimine.iml" filepath="$PROJECT_DIR$/.idea/modules/testimine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testimine_main.iml" filepath="$PROJECT_DIR$/.idea/modules/testimine_main.iml" group="testimine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testimine_test.iml" filepath="$PROJECT_DIR$/.idea/modules/testimine_test.iml" group="testimine" />
+    </modules>
+  </component>
+</project>
