@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="OOP_home" external.linked.project.path="$USER_HOME$/Desktop/OOP" external.root.project.path="$USER_HOME$/Desktop/OOP" external.system.id="GRADLE" external.system.module.group="OOP" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="OOP" external.linked.project.path="$USER_HOME$/Desktop/OOP" external.root.project.path="$USER_HOME$/Desktop/OOP" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$USER_HOME$/Desktop/OOP">
       <excludeFolder url="file://$USER_HOME$/Desktop/OOP/.gradle" />
       <excludeFolder url="file://$USER_HOME$/Desktop/OOP/build" />
-      <excludeFolder url="file://$USER_HOME$/Desktop/OOP/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
