@@ -74,13 +74,13 @@ public class ForecastDataTest {
     }
 
     @Test
-    public void testMaxTemperatureBiggerThanMinShouldThrowExceptionBecauseMaxHasToBeGreaterOrEqual(){
+    public void testMaxTemperatureSmallerThanMinShouldThrowExceptionBecauseMaxHasToBeGreaterOrEqual(){
         assertTrue(ForecastData.getMaxTemperature() >= ForecastData.getMinTemperature());
         assertFalse(ForecastData.getMaxTemperature() < ForecastData.getMinTemperature());
     }
 
     @Test
-    public void testMinTemperatureSmallerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual(){
+    public void testMinTemperatureBiggerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual(){
         assertTrue(ForecastData.getMinTemperature() <= ForecastData.getMaxTemperature());
         assertFalse(ForecastData.getMinTemperature() > ForecastData.getMaxTemperature());
     }
