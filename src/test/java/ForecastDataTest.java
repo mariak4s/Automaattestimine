@@ -1,124 +1,82 @@
 import org.junit.Test;
+import static org.junit.Assert.*;
+import java.text.SimpleDateFormat;
 
 public class ForecastDataTest {
 
     @Test
-    public void testGetCityCoordinatesShouldReturnCityCoordinates(){
+    public void testInternetConnectionExists(){
+        boolean response = ForecastData.internetConnectionExists();
+        assertTrue(response);
+    }
 
+    @Test
+    public void testGetCityCoordinatesShouldReturnCityCoordinates(){
+        String response = ForecastData.getCityCoordinates();
+        assertTrue(response == (String)response);
+        assertFalse(response.isEmpty());
     }
 
     @Test
     public void testGetCityNameShouldReturnCityName(){
-
+        String cityName = "";
+        assertEquals(cityName, ForecastData.getCityName());
     }
 
     @Test
     public void testGetCityByIDShouldReturnCityByID(){
-
+        String cityID = "";
+        assertEquals(cityID, ForecastData.getCityByID());
     }
 
     @Test
-    public void testGetCoordinatesShouldReturnCoordinatesInGEO(){
-
-    }
-
-    @Test
-    public void invalidLongitudeUnitShouldThrowIllegalArgumentExceptionShouldBeInDegree(){
-
-    }
-
-    @Test
-    public void invalidLatitudeUnitShouldThrowIllegalArgumentExceptionShouldBeInDegree(){
-
-    }
-
-    @Test
-    public void testGetCurrentWeatherByCoordinatesShouldReturnCurrentWeather(){
-
+    public void testGetCoordinatesInGEOShouldReturnCoordinatesInGEO(){
+        String response = ForecastData.getCoordinatesInGEO();
+        assertTrue(response.length() == 7);
+        assertTrue(response == (String)response);
+        assertFalse(response.isEmpty());
     }
 
     @Test
     public void testGetCurrentWeatherWithDateAndTimeShouldReturnCurrentWeatherByDateAndTime(){
-
+        SimpleDateFormat response = ForecastData.getCurrentWeatherWithDateAndTime();
+        assertTrue(response == ForecastData.getCurrentWeatherWithDateAndTime());
     }
 
     @Test
-    public void testGetThreeDayForecastByCityShouldReturnThreeDayForecast(){
-
+    public void testGetThreeDayForecastShouldReturnThreeDayForecast(){
+        String response = ForecastData.getThreeDayForecast();
+        assertTrue(response == (String)response);
+        assertFalse(response.isEmpty());
     }
 
     @Test
-    public void testGetThreeObjectsContainingTwoTemperaturesEachShouldReturnThreeDayForecast(){
-
-    }
-
-    @Test
-    public void testGetThreeObjectsWithDatesShouldReturnThreeDayForecast(){
-
-    }
-
-    @Test
-    public void testGetWeatherDataShouldReturnAllDetails(){
-
-    }
-
-    @Test
-    public void testGetWeatherMapShouldReturnWeatherMap(){
-        
-    }
-
-    @Test
-    public void testGetYesterdaysWeatherShouldThrowExceptionBecauseItShouldShowOnlyTodayOrThreeDaysForecast(){
-
-    }
-
-    @Test
-    public void testGetWeatherAfterThreeDaysShouldThrowExceptionBecauseThreeFollowingDaysIsMax(){
-
-    }
-
-    @Test
-    public void testGetMinTemperatureWhenThreeDayForecastShouldReturnMinTemp(){
-
-    }
-
-    @Test
-    public void testGetMaxTemperatureWhenThreeDayForecastShouldReturnMaxTemp(){
-
-    }
-
-    @Test
-    public void testGetTemperatureShouldReturnFloat(){
-
+    public void testGetTemperatureShouldReturnInt(){
+        int result = ForecastData.getTemperature();
+        assertTrue(result == (int)result);
     }
 
 
     @Test
-    public void testGetTemperatureUnitShouldReturnCelsius(){
-
+    public void testGetCurrentTemperatureInCelsiusShouldReturnCurrentTempInCelsius(){
+        int response = ForecastData.getCurrentTemperatureInCelsius();
+        assertTrue(response == (int)response);
+        assertTrue(response < 100);
+        assertTrue(response > -100);
     }
 
     @Test
-    public void testGetTemperatureUnitShouldReturnFahrenheit(){
-
+    public void testGetCurrentTemperatureInFahrenheitShouldReturnCurrentTempInFahrenheit(){
+        int response = ForecastData.getCurrentTemperatureInFahrenheit();
+        assertTrue(response == (int)response);
+        assertTrue(response < 212);
+        assertTrue(response > -148);
     }
 
     @Test
-    public void testGetCurrentTemperatureShouldReturnCurrentTemp(){
-    }
-
-    @Test
-    public void testExceedsHighestTemperatureShouldThrowExceptionBecauseTemperatureIsHigherThanHighestAllowed(){
-
-    }
-
-    @Test
-    public void testMinTemperatureBiggerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual(){
-
-    }
-
-    @Test
-    public void testMaxTemperatureSmallerThanMinShouldThrowExceptionBecauseMaxHasToBeBiggerOrEqual(){
-
+    public void testMaxTemperatureSmallerThanMinShouldThrowExceptionBecauseMaxHasToBeGreaterOrEqual(){
+        int response = ForecastData.getMaxTemperature();
+        assertTrue(ForecastData.getMaxTemperature() >= ForecastData.getMinTemperature());
+        assertTrue(ForecastData.getMaxTemperature() < ForecastData.getMinTemperature());
     }
 }
