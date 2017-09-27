@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50d185f-8496-4982-94d5-3f659de4346d" name="Default" comment="Automaattestimise projekt">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/ForecastData.class" afterPath="$PROJECT_DIR$/out/production/classes/ForecastData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/ForecastDataTest.class" afterPath="$PROJECT_DIR$/out/test/classes/ForecastDataTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ForecastData.java" afterPath="$PROJECT_DIR$/src/main/java/ForecastData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ForecastDataTest.java" afterPath="$PROJECT_DIR$/src/test/java/ForecastDataTest.java" />
     </list>
     <ignored path="$USER_HOME$/Desktop/OOP/.gradle/" />
@@ -51,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForecastDataTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ForecastDataTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ForecastDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="318">
+              <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,30 +59,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForecastData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForecastData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ForecastData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="-102">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
                 <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1599#1600#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -651,8 +631,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="340" />
+    <option name="x" value="56" />
+    <option name="y" value="30" />
     <option name="width" value="1224" />
     <option name="height" value="714" />
   </component>
@@ -673,8 +653,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -717,7 +698,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -739,7 +719,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ForecastDataTest">
+  <component name="RunManager" selected="JUnit.ForecastDataTest.testMinTemperatureSmallerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual">
     <configuration name="ForecastDataTest" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -820,14 +800,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ForecastDataTest.testGetThreeObjectsContainingTwoTemperaturesEachShouldReturnThreeDayForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForecastDataTest.testInternetConnectionExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="testimine_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ForecastDataTest" />
-      <option name="METHOD_NAME" value="testGetThreeObjectsContainingTwoTemperaturesEachShouldReturnThreeDayForecast" />
+      <option name="METHOD_NAME" value="testInternetConnectionExists" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -840,14 +820,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ForecastDataTest.testInternetConnectionExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForecastDataTest.testMinTemperatureSmallerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="testimine_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ForecastDataTest" />
-      <option name="METHOD_NAME" value="testInternetConnectionExists" />
+      <option name="METHOD_NAME" value="testMinTemperatureSmallerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -943,19 +923,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ForecastDataTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetThreeObjectsContainingTwoTemperaturesEachShouldReturnThreeDayForecast" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetCityByIDShouldReturnCityByID" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetTemperatureShouldReturnInt" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testInternetConnectionExists" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetCurrentWeatherWithDateAndTimeShouldReturnCurrentWeatherByDateAndTime" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetCityByIDShouldReturnCityByID" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetTemperatureShouldReturnInt" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testInternetConnectionExists" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetCurrentWeatherWithDateAndTimeShouldReturnCurrentWeatherByDateAndTime" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testMinTemperatureSmallerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetCurrentWeatherWithDateAndTimeShouldReturnCurrentWeatherByDateAndTime" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testInternetConnectionExists" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetTemperatureShouldReturnInt" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetCityByIDShouldReturnCityByID" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetThreeObjectsContainingTwoTemperaturesEachShouldReturnThreeDayForecast" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testMinTemperatureSmallerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetCurrentWeatherWithDateAndTimeShouldReturnCurrentWeatherByDateAndTime" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testInternetConnectionExists" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetTemperatureShouldReturnInt" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ForecastDataTest.testGetCityByIDShouldReturnCityByID" />
       </list>
     </recent_temporary>
   </component>
@@ -988,9 +968,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ForecastDataTest - 2017.09.27 at 21h 23m 55s.xml">
-      <configuration name="ForecastDataTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ForecastDataTest_testGetCityNameShouldReturnCityName - 2017.09.27 at 20h 46m 20s.xml">
       <configuration name="ForecastDataTest.testGetCityNameShouldReturnCityName" configurationId="JUnit" />
     </history-entry>
@@ -1018,9 +995,12 @@
     <history-entry file="ForecastDataTest_testInternetConnectionExists - 2017.09.27 at 21h 09m 14s.xml">
       <configuration name="ForecastDataTest.testInternetConnectionExists" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ForecastDataTest_testMinTemperatureSmallerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual - 2017.09.27 at 21h 35m 32s.xml">
+      <configuration name="ForecastDataTest.testMinTemperatureSmallerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="340" width="1224" height="714" extended-state="0" />
+    <frame x="56" y="30" width="1224" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1029,9 +1009,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31464174" sideWeight="0.38235295" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31464174" sideWeight="0.38643792" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31464174" sideWeight="0.61764705" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31464174" sideWeight="0.6135621" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.625" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1115,6 +1095,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ForecastDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ForecastData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ForecastDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
@@ -1128,24 +1137,8 @@
         <state relative-caret-position="720">
           <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
           <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1267,39 +1260,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ForecastDataTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ForecastData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="-102">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ForecastData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ForecastDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="318">
+          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
           <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
