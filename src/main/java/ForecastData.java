@@ -1,17 +1,10 @@
+import java.awt.geom.Point2D;
 import java.text.SimpleDateFormat;
 
 public class ForecastData {
 
-    public static boolean internetConnectionExists(){
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
-
-    public static String getCityCoordinates(){
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
-
-    public static String getCityName(){
-        throw new UnsupportedOperationException("Not yet implemented");
+    public static String getCityCoordinates(String cityName){
+        return "";
     }
 
     public static String getCityByID(){

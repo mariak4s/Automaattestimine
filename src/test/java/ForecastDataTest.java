@@ -5,22 +5,11 @@ import java.text.SimpleDateFormat;
 public class ForecastDataTest {
 
     @Test
-    public void testInternetConnectionExists(){
-        boolean response = ForecastData.internetConnectionExists();
-        assertTrue(response);
-    }
-
-    @Test
     public void testGetCityCoordinatesShouldReturnCityCoordinates(){
-        String response = ForecastData.getCityCoordinates();
-        assertTrue(response == (String)response);
-        assertFalse(response.isEmpty());
-    }
-
-    @Test
-    public void testGetCityNameShouldReturnCityName(){
-        String cityName = "";
-        assertEquals(cityName, ForecastData.getCityName());
+        String cityName = "Tallinn";
+        String expectedCoordinates = "59.437222;24.745278";
+        String coordinates = ForecastData.getCityCoordinates(cityName);
+        assertEquals(expectedCoordinates, coordinates);
     }
 
     @Test
@@ -31,6 +20,10 @@ public class ForecastDataTest {
 
     @Test
     public void testGetCoordinatesInGEOShouldReturnCoordinatesInGEO(){
+        /*double latMax = 90;
+        double latMin = -90;
+        double lngMax = 180;
+        double lngMin = -180;*/
         String response = ForecastData.getCoordinatesInGEO();
         assertTrue(response.length() == 7);
         assertTrue(response == (String)response);
@@ -74,14 +67,9 @@ public class ForecastDataTest {
     }
 
     @Test
-    public void testMaxTemperatureSmallerThanMinShouldThrowExceptionBecauseMaxHasToBeGreaterOrEqual(){
+    public void testIfMaxTemperatureLargerThanMin(){
         assertTrue(ForecastData.getMaxTemperature() >= ForecastData.getMinTemperature());
         assertFalse(ForecastData.getMaxTemperature() < ForecastData.getMinTemperature());
     }
 
-    @Test
-    public void testMinTemperatureBiggerThanMaxShouldThrowExceptionBecauseMinHasToBeSmallerOrEqual(){
-        assertTrue(ForecastData.getMinTemperature() <= ForecastData.getMaxTemperature());
-        assertFalse(ForecastData.getMinTemperature() > ForecastData.getMaxTemperature());
-    }
 }
