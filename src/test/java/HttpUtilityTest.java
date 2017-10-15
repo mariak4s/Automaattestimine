@@ -1,7 +1,7 @@
-package utility;
-
 import org.junit.Test;
-import static org.junit.Assert.*;
+import utility.HttpUtility;
+import static junit.framework.TestCase.assertEquals;
+
 
 public class HttpUtilityTest{
 
