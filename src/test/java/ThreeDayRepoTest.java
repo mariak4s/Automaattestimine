@@ -1,7 +1,7 @@
 
 import model.Coordinates;
 import model.WeatherForADay;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import reports.ThreeDayReport;
 import reports.WeatherRequest;
@@ -20,15 +20,15 @@ public class ThreeDayRepoTest {
     private static ThreeDayReport report;
     private static WeatherRequest request;
 
-    @Before
-    public void setUpTests(){
+    @BeforeClass
+    public static void setUpTests(){
         exampleCoordinates = new Coordinates(24.7, 59.4);
         request = new WeatherRequest("Tallinn", exampleCoordinates, "EE");
         Weather weatherRepo = new WeatherRepository();
         try {
             report = weatherRepo.getForecastForThreeDays(request);
         } catch (Exception e){
-            fail("Test failed because: " + e.getMessage());
+            fail("All Tests failed because: " + e.getMessage());
         }
     }
 

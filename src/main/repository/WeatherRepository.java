@@ -86,6 +86,7 @@ public class WeatherRepository implements Weather{
                 .setHost("api.openweathermap.org")
                 .setPath("/data/2.5/forecast")
                 .addParameter("q", weatherRequest.getCityName() + "," + weatherRequest.getCountryCode())
+                .addParameter("APPID", APIKey)
                 .addParameter("units", "metric");
         URL url = null;
         try {
@@ -124,15 +125,15 @@ public class WeatherRepository implements Weather{
         JSONObject sys = (JSONObject) reportInJson.get("sys");
         JSONObject coord = (JSONObject) cityObject.get("coord");
         String cityName = (String) cityObject.get("name");
-        String countryCode = (String) sys.get("country");
+        String countryCode = (String) cityObject.get("country");
         double longitude = (double) coord.get("lon");
-        double latitude = (double) coord.get("lan");
+        double latitude = (double) coord.get("lat");
         Coordinates coordinates = new Coordinates(longitude, latitude);
         double previousMaxTemp = Integer.MIN_VALUE;
         double previousMinTemp = Integer.MAX_VALUE;
         int previousDay = 0;
         JSONArray forecastArray = (JSONArray) reportInJson.get("list");
-        List<WeatherForADay> threeDayForecast = new ArrayList<WeatherForADay>();
+        List<WeatherForADay> threeDayForecast = new ArrayList<>();
 
         for (int i = 0; i < forecastArray.size(); i++){
             JSONObject oneForecast = (JSONObject) forecastArray.get(i);
@@ -163,6 +164,7 @@ public class WeatherRepository implements Weather{
         }
 
         WeatherForADay[] threeDays = threeDayForecast.toArray(new WeatherForADay[threeDayForecast.size()]);
+
         return new ThreeDayReport(cityName, coordinates, countryCode, threeDays);
     }
 }
