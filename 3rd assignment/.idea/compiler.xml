@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="OOP_home_main" target="1.8" />
+      <module name="OOP_home_test" target="1.8" />
+      <module name="testimine_main" target="1.8" />
+      <module name="testimine_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
