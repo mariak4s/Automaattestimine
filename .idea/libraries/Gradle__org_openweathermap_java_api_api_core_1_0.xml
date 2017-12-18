@@ -2,8 +2,11 @@
   <library name="Gradle: org.openweathermap.java-api:api-core:1.0">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/Could not find org.openweathermap.java-api:api-core:1.0." />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openweathermap.java-api/api-core/1.0/449b00d3d170538eb202bfc46e1e8e8205b26c02/api-core-1.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openweathermap.java-api/api-core/1.0/84e2ccfc4933d85d1e06335098880b813e3d4907/api-core-1.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

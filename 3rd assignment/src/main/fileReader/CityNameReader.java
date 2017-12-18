@@ -1,4 +1,4 @@
-package fileReader;
+package java.cityNameReader;
 
 
 
@@ -10,7 +10,7 @@ public class CityNameReader {
     private static Scanner scanner;
 
     private static String getCityNameFromFile(){
-        System.out.println("City name is being read from file:\n");
+        System.out.println("City name is being read from fileReader:\n");
         try {
             Scanner fileIn = new Scanner(new File("/Users/Maria/IdeaProjects/WeatherApp/Automaattestimine"));
             String cityNameFromFile = fileIn.nextLine();
@@ -38,7 +38,7 @@ public class CityNameReader {
         } else if (input.equalsIgnoreCase("C")){
             return getCityNameFromConsole();
         } else {
-            System.out.println("Incorrect input, city name will be read from the file.");
+            System.out.println("Incorrect input, city name will be read from the fileReader.");
             return getCityNameFromFile();
         }
     }

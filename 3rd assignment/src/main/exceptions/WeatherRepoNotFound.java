@@ -1,4 +1,4 @@
-package exceptions;
+package java.exceptions;
 
 public class WeatherRepoNotFound extends Exception{
 

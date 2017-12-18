@@ -1,0 +1,1 @@
+{"CurrentTemp":13.0,"city":"Tallinn","dailyWeather":[{"maxTemp":10.1,"minTemp":-13.2},{"maxTemp":3.0,"minTemp":-2.3},{"maxTemp":3.2,"minTemp":1.0}],"coordinates":{"latitude":59.4,"longitude":24.7}}
